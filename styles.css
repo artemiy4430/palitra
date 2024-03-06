@@ -1,0 +1,36 @@
+/* #parent , #child, #descandant {
+  border: 1px solid #000;
+  padding: 50px;
+  margin: 100px auto;
+}
+#parent{
+  background-color: red;
+}
+#child{
+  background-color: blue;
+}
+#descandant{
+  background-color: #13e513;
+} */
+
+body {
+margin: 8px;
+font-family: sans-serif;
+}
+.output {
+text-align: center;
+text-transform: uppercase;
+font-size: 24px;
+font-weight: 700;
+}
+.colorPalette {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+gap: 4px;
+}
+.colorPalette .element{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
